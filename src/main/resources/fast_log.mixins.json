@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.notGecko.fast_log.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ChatMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "text.autoconfig.fast_log.title": "Fast LOG Settings",
+  "text.autoconfig.fast_log.category.general": "General",
+  "text.autoconfig.fast_log.category.conditions": "Conditions",
+
+  "text.autoconfig.fast_log.option.enabled": "Enable Mod",
+
+  "text.autoconfig.fast_log.option.commandToSend": "Command to Send",
+  "text.autoconfig.fast_log.option.commandToSend.@Tooltip[0]": "The command that will be sent to the server.",
+  "text.autoconfig.fast_log.option.commandToSend.@Tooltip[1]": "Write WITHOUT a slash (e.g., login 123).",
+
+  "text.autoconfig.fast_log.option.delayTicks": "Delay (Ticks)",
+  "text.autoconfig.fast_log.option.delayTicks.@Tooltip": "20 ticks = 1 second. Wait time before execution. Set it to 40 if there is a high ping or delay.",
+
+  "text.autoconfig.fast_log.option.hideFromChat": "Hide phrase from Chat",
+  "text.autoconfig.fast_log.option.hideFromChat.@Tooltip": "Messages with this phrase will move to Action Bar.",
+
+  "text.autoconfig.fast_log.option.checkBlindness": "Require Blindness?",
+  "text.autoconfig.fast_log.option.checkBlindness.@Tooltip": "Only trigger if player has blindness effect.",
+
+  "text.autoconfig.fast_log.option.allowedIps": "Allowed IPs",
+  "text.autoconfig.fast_log.option.allowedIps.@Tooltip": "List of servers where the mod is active."
+}

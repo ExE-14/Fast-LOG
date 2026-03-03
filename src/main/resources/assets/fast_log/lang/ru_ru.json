@@ -1,0 +1,23 @@
+{
+  "text.autoconfig.fast_log.title": "Настройки Fast LOG",
+  "text.autoconfig.fast_log.category.general": "Общее",
+  "text.autoconfig.fast_log.category.conditions": "Условия входа",
+
+  "text.autoconfig.fast_log.option.enabled": "Включить мод",
+
+  "text.autoconfig.fast_log.option.commandToSend": "Команда:",
+  "text.autoconfig.fast_log.option.commandToSend.@Tooltip[0]": "Команда, которая будет отправлена на сервер для входа.",
+  "text.autoconfig.fast_log.option.commandToSend.@Tooltip[1]": "Без слеша спереди (например, login 123).",
+
+  "text.autoconfig.fast_log.option.delayTicks": "Задержка",
+  "text.autoconfig.fast_log.option.delayTicks.@Tooltip": "Задержка в тиках, 20 тиков = 1 секунда. Увеличьте до 40, если у вас высокий пинг или задержка.",
+
+  "text.autoconfig.fast_log.option.hideFromChat": "Скрывать из чата:",
+  "text.autoconfig.fast_log.option.hideFromChat.@Tooltip": "Сообщения с этой фразой полетят в Action Bar.",
+
+  "text.autoconfig.fast_log.option.checkBlindness": "слепота?",
+  "text.autoconfig.fast_log.option.checkBlindness.@Tooltip": "Срабатывать только при эффекте слепоты.",
+
+  "text.autoconfig.fast_log.option.allowedIps": "IP адреса",
+  "text.autoconfig.fast_log.option.allowedIps.@Tooltip": "Список серверов, на которых мод будет работать."
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fast_log",
+  "version": "${version}",
+  "name": "Fast LOG",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fast_log/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.notGecko.fast_log.Fast_logClient"
+    ],
+    "modmenu": [
+      "com.notGecko.fast_log.client.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "fast_log.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
